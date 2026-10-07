@@ -1,6 +1,8 @@
 # Virtual Environments and Cache
 __pycache__/
 *.pyc
+venv/
+.venv/
 
 # Dataset Folders (Too large for GitHub)
 train/
@@ -12,7 +14,19 @@ temp_calibrated_frames/
 temp_production_frames/
 temp_video_frames/
 
+# Backend Runtime Folders
+backend/uploads/
+backend/results/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
 # Test Media and Outputs
 *.mp4
 *.png
 *.jpg
+
+# Environment
+.env
