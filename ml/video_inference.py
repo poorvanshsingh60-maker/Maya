@@ -8,8 +8,8 @@ from albumentations.pytorch import ToTensorV2
 from facenet_pytorch import MTCNN
 from collections import Counter
 
-from deepfake_dataloader import extract_high_frequency_noise
-from model_architecture import DualStreamDeepfakeDetector
+from ml.deepfake_dataloader import extract_high_frequency_noise
+from ml.model_architecture import DualStreamDeepfakeDetector
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 

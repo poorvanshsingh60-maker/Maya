@@ -7,8 +7,8 @@ from sklearn.metrics import confusion_matrix, roc_auc_score, accuracy_score
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from deepfake_dataloader import DeepfakeDataset
-from model_architecture import DualStreamDeepfakeDetector
+from ml.deepfake_dataloader import DeepfakeDataset
+from ml.model_architecture import DualStreamDeepfakeDetector
 
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 BATCH_SIZE = 8

@@ -5,8 +5,8 @@ from torch.utils.data import DataLoader
 from sklearn.metrics import roc_auc_score, accuracy_score
 from tqdm import tqdm
 
-from deepfake_dataloader import DeepfakeDataset
-from model_architecture import DualStreamDeepfakeDetector
+from ml.deepfake_dataloader import DeepfakeDataset
+from ml.model_architecture import DualStreamDeepfakeDetector
 
 # Hyperparameters
 BATCH_SIZE = 8       # Lower to 4 if you hit CUDA Out of Memory
