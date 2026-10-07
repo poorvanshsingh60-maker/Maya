@@ -1,0 +1,18 @@
+# Virtual Environments and Cache
+__pycache__/
+*.pyc
+
+# Dataset Folders (Too large for GitHub)
+train/
+val/
+test/
+
+# Temporary Extraction Folders
+temp_calibrated_frames/
+temp_production_frames/
+temp_video_frames/
+
+# Test Media and Outputs
+*.mp4
+*.png
+*.jpg
